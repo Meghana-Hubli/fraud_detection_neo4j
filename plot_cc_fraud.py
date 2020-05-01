@@ -1,5 +1,5 @@
 
-from py2neo import Graph, Node, Relationship
+from py2neo import Graph
 import re
 
 ### Add all the contrainsts
