@@ -1,0 +1,3 @@
+1. Add a code to compute all the expenses of each person,a nd then add an attribute to each Customer of total credit limit.
+  
+

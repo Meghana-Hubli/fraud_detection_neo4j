@@ -1,0 +1,7 @@
+MATCH (victim:Person)-[r:HAS_BOUGHT_AT]->(merchant)
+WHERE r.status = "Disputed"
+MATCH (victim)-[t:HAS_BOUGHT_AT]->(othermerchants)
+WHERE t.status = "Undisputed" AND t.time < r.time
+WITH victim, othermerchants, t ORDER BY t.time DESC
+RETURN victim.name AS `Customer Name`, othermerchants.name AS `Store Name`, t.amount AS Amount, t.time AS `Transaction Time`
+ORDER BY `Transaction Time` DESC
