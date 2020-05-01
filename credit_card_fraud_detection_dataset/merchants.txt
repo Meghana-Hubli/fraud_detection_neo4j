@@ -1,6 +1,6 @@
 CREATE (Amazon:Merchant {id:'11', name:'Amazon', street:'2626 Wilkinson Court', address:'San Bernardino, CA 92410'})
 CREATE (Abercrombie:Merchant {id:'12', name:'Abercrombie', street:'4355 Walnut Street', age:'San Bernardino, CA 92410'})
-CREATE (Wallmart:Merchant {id:'13', name:'Wallmart', street:'2092 Larry Street', age:'San Bernardino, CA 92410'})
+CREATE (Walmart:Merchant {id:'13', name:'Wallmart', street:'2092 Larry Street', age:'San Bernardino, CA 92410'})
 CREATE (MacDonalds:Merchant {id:'14', name:'MacDonalds', street:'1870 Caynor Circle', age:'San Bernardino, CA 92410'})
 CREATE (American_Apparel:Merchant {id:'15', name:'American Apparel', street:'1381 Spruce Drive', age:'San Bernardino, CA 92410'})
 CREATE (Just_Brew_It:Merchant {id:'16', name:'Just Brew It', street:'826 Anmoore Road', age:'San Bernardino, CA 92410'})

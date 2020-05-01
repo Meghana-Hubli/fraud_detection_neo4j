@@ -1,0 +1,4 @@
+FraudRing,ContactType,RingSize
+['MattSmith', 'JaneAppleseed', 'JohnDoe'],['Address'],3
+['JohnDoe', 'JaneAppleseed'],['PhoneNumber'],2
+['MattSmith', 'JaneAppleseed'],['SSN'],2

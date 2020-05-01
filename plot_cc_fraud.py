@@ -58,7 +58,7 @@ with open('credit_card_fraud_detection_dataset/point_of_origin.txt') as file:
     point_of_origin = file.read()
     print(point_of_origin)
     output = graph.run(point_of_origin).data()
-
+# storing the results in a csv file
 with open('credit_card_fraud_detection_dataset/point_of_origin.csv','w') as file:
     file.write("Customer Name" + "," + "Store Name" + "," + "Amount" + "," + "Transaction Time" +"\n")
     for each_dict in output:
@@ -70,7 +70,7 @@ with open('credit_card_fraud_detection_dataset/culprit_query.txt') as file:
     culprit_query = file.read()
     print(culprit_query)
     output = graph.run(culprit_query).data()
-
+# storing the results in a csv file
 with open('credit_card_fraud_detection_dataset/culprit_query.csv','w') as file:
     file.write("Suspicious Store" + "," + "Count" + "," + "Victims"+"\n")
     for each_dict in output:

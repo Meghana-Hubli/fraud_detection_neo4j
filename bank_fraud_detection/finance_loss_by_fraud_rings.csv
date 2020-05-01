@@ -1,0 +1,4 @@
+FraudRing,ContactType,RingSize,FinancialRisk
+['MattSmith', 'JaneAppleseed', 'JohnDoe'],['Address'],3,34387.0
+['MattSmith', 'JaneAppleseed'],['SSN'],2,29387.0
+['JohnDoe', 'JaneAppleseed'],['PhoneNumber'],2,18046.0
